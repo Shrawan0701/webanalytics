@@ -154,7 +154,7 @@ export default function WebsiteManagement() {
       <script>
       (function() {
         var s = document.createElement("script");
-        s.src = "https://your-example-domain.com/tracking.js?website=${selectedWebsiteId}";
+        s.src = "https://websiteanalytics.vercel.app//tracking.js?website=${selectedWebsiteId}";
         s.async = true;
         document.body.appendChild(s);
       })();
