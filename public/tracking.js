@@ -22,7 +22,7 @@ function sendEvent(eventType, additionalData) {
     timestamp: new Date().toISOString(),
     userAgent: navigator.userAgent
   }, additionalData || {});
-  fetch('https://websiteanalytics.onrender.com/api/track/event', {
+  fetch('https://websiteanalytics.onrender.com/track/event', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
